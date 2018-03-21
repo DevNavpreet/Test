@@ -6,11 +6,11 @@
     </head>
     <body>
       <div class="navigation">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-          <a href="#">Reservation</a>
+          <a href="singlepage.html">Home</a>
+          <a href="#row">About</a>
+          <a href="#book">Reservation</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
         </div>
         <div class="hero">
             <div class="caption">
@@ -18,7 +18,7 @@
             </div>
             
         </div>
-        <section class="row">
+        <section id="row">
             <div class="col1"><h1>Meet Us</h1>
                 <hr class="ruler">
         <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan, urna id dignissim cursus, ante massa euismod enim, at porta nulla augue at risus. Proin quis eros velit. Ut eget efficitur ex, sed congue metus. Integer porttitor quam urna. Nam velit urna, blandit a congue eget, placerat sed risus.</p>
@@ -27,23 +27,23 @@
                 <img src="pexels-photo-776615.jpeg" class="image">
                 </div>
         </section>
-        <section class="book">
+        <section id="book">
             <div class="table">
                 <h3>Make a reservation</h3>
                 <form>
                     <label>Checkin</label>
-                    <input type="date">
+                    <input type="date" id="d1" value="2018-03-21">
                     <label>Checkout</label>
-                    <input type="date">
+                    <input type="date" id="d2" value="2018-03-24"> 
                     <label>Adults</label>
-                    <input type="number">
+                    <input type="number" id="ad" value="2">
                    <label>Kids</label>
-                    <input type="number">
-                    <button type="button">Book a room</button>
+                    <input type="number" id="kd" value="2">
+                    <button type="button" onclick="getValue()">Book a room</button>
                 </form>
             </div>
         </section>
-        <section class="services">
+        <section id="services">
             <h4>Our Services</h4>
             <div class="list">
                 <div class="one"><img src="double-king-size-bed.png">
@@ -68,19 +68,20 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact">
             <h5>Leave a message</h5>
             <div class="field">
             <form>
-            <input type="text" placeholder="Your name">
-                <input type="email" placeholder="Your email" required>
-        <textarea rows="5" cols="5" placeholder="Your mesage"></textarea>
-                <input type="button" value="Submit">
+            <input type="text" placeholder="your name" id="name">
+                <input type="email" placeholder="Your email" id="email">
+        <textarea rows="5" cols="5" placeholder="Your mesage" id="text"></textarea>
+                <input type="button" value="Submit" id="mybutton">
             </form>
             </div>
         </section>
         <footer class="foo">
             <p class="end">Copyright @2018</p>
         </footer>
+        <script src="myjs.js"></script>
     </body>
 </html>
