@@ -1,5 +1,5 @@
 *{
-    box-sizing:border-box;
+    box-sizing:border-box; sss
 }
 body{
     margin:0;
@@ -26,18 +26,19 @@ body{
 }
 .hero{
     position: relative;
-    background: linear-gradient(to right,lightgreen,maroon);
-    height:300px;
+    background: url(pexels-photo-338504.jpeg) center center;
+    background-size: cover;
+    height:480px;
 }
 .caption{
     position: absolute;
-    top:30%;
+    top:40%;
     left:30%;
-    background: rgba(0,0,0,0.2);
+    background: rgba(255,255,255,0.5);
     width:40%;
     height:auto;
     text-align:center;
-    color:whitesmoke;
+    color:maroon;
     font-size: 26px;
 }
 .row{
@@ -52,46 +53,6 @@ body{
 .col2{
     flex:25%;
     height:300px;
-    background: rgba(0,0,255,0.1);
+    
     
 }
-.f{
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-flow: column;
-    background: rgba(0,0,0,0.1);
-    width:50%;
-    height:70%;
-    position: relative;
-    top:10px;
-    left:25%;
-    
-}
-
-input[type="text"]{
-    height:28px;
-    width:50%;
-  padding:5px 10px;
-    border:none;
-  border-radius: 3px;
-    outline:none;
-}
-input[type="number"]{
-     height:28px;
-    width:50%;
-    padding:5px 10px;
-    border:none;
-  border-radius: 3px;
-    outline:none;
-}
-input[type="date"]{
-    height:28px;
-    width:50%;
-    border:none;
-  border-radius: 3px;
-    outline:none;
-    //overflow:hidden;
-}
-
-
