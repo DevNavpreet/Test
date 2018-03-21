@@ -142,10 +142,16 @@ button:hover{
     transition: .5s ease-in-out;
 }
 .services{
-height:400px;
-background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:450px;
+background: linear-gradient(to right, #C4E0E5, #4CA1AF);
 
-
+}
+h4{
+    text-align: center;
+    font-size:27px;
+    font-weight: 300;
+    padding:30px 0 20px 0;
+    margin:0;
 }
 .list{
     display:flex;
@@ -156,8 +162,88 @@ background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, F
     flex:1;
     flex-direction: row;
     height:200px;
-   padding:40px 30px 10px 80px;
+   padding:20px 30px 10px 80px;
 }
 .one p{
     text-align: left;
+}
+.contact{
+    background: linear-gradient(to bottom,rgba(255,0,0,0.1),rgba(0,0,0,0.2)),url(pexels-photo-301353.jpeg) center center;
+    height:360px;
+    position: relative;
+}
+.field{
+    position:absolute;
+    top:21%;
+    left:30%;
+    height:70%;
+    width:50%;
+    border:0px solid black;
+}
+input[type="text"]{
+    width:100%;
+    height:35px;
+    border:none;
+    border-radius: 3px;
+    outline:none;
+    margin:8px 0;
+    color:black;
+}
+input[type="email"]{
+    width:100%;
+    height:35px;
+    border:none;
+    border-radius: 3px;
+    outline:none;
+    margin:8px 0;
+}
+textarea{
+    width:100%;
+    border:none;
+    border-radius: 3px;
+    outline:none;
+    margin:8px 0;
+    padding:10px 20px;
+}
+input[type="button"]{
+     width:100%;
+    border:none;
+    border-radius: 3px;
+    outline:none;
+    margin:8px 0;
+    padding:10px 20px;
+    background: white;
+}
+input[type="text"]:focus{
+    background-color: aquamarine;
+    
+}
+input[type="email"]:focus{
+    background-color: aquamarine;
+    
+}
+textarea:focus{
+    background-color: aquamarine;
+}
+input[type="button"]:hover{
+    background: aquamarine;
+    color:black;
+    font-weight: bold;
+}
+h5{
+    text-align: center;
+    margin:0;
+    font-size:28px;
+    color:white;
+    padding:9px 0;
+}
+.foo{
+    height:40px;
+    background-color: brown;
+}
+.end{
+    text-align: center;
+    font-size:19px;
+    padding:9px 0;
+    margin:0;
 }
