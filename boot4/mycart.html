@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+       <!-- custom css -->
+        <link href="style.css" rel="stylesheet">
+        <!--fonts-->
+        <script src="https://use.fontawesome.com/d0157a1f4c.js"></script>
+    </head>
+    <body>
+       <header class="navigation">
+           <div class="container">
+               <div class="row">
+            <div class="col-md-7">
+                <nav class="navbar navbar-expand-lg navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Clothing
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="row">
+              <div class="col-md-4">
+                <ul class="multi-column-dropdown">
+			
+												<li><a href="women.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Women's Clothing</a></li>
+												<li><a href="men.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's Clothing</a></li>
+												<li><a href="kids.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Kid's Wear</a></li>
+												<li><a href="shoes.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shoes</a></li>
+										
+											</ul>
+										 	
+              </div>
+              <div class="col-md-4">
+                  <img src="images/pexels-photo-291762.jpeg" class="img-fluid">
+                   </div>
+              <div class="col-md-4">
+                  
+                   </div>
+         
+           </div>
+        </div>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+     </ul>
+      </div>
+</nav>
+               </div>
+               <div class="col-md-4 search-info">
+                   <form>
+				<input type="search" placeholder="Search for a Product..." required>
+                       <button type="submit" class="btn btn-light btn-sm srh">
+                       <i class="fa fa-search" aria-hidden="true"></i>
+                       </button>
+			</form>
+               </div>
+               <div class="col-md-1 cart">
+                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+               </div>
+           </div>
+           </div>
+        </header>
+        <section class="showcase-9">
+            <div class="about-head">
+                <p>Shopping cart</p>
+                </div>
+            
+        </section>
+        <section class="shopcart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+  <thead class="bg-success">
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Total</th>
+      <th scope="col">Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="images/min1.jpeg" class="img-fluid"></td>
+        <td><p class="cart-text">Peach dress</p></td>
+        <td><p class="price">300</p></td>
+        <td><div class="qty"><input type="number" min="0" max="10" value="1"></div></td>
+        <td><p class="price">300</p></td>
+        <td><a href="#"><i class="fa fa-times remove" aria-hidden="true"></i></a></td>
+    </tr>
+    <tr>
+      <td><img src="images/min-2.jpeg" class="img-fluid"></td>
+      <td><p class="cart-text">floral dress</p></td>
+      <td><p class="price">400</p></td>
+      <td><div class="qty"><input type="number" min="0" max="10" value="1"></div></td>
+      <td><p class="price">300</p>
+      <td><a href="#"><i class="fa fa-times remove" aria-hidden="true"></i></a></td>
+    
+    </tr>
+    <tr>
+     <td><img src="images/min-3.jpeg" class="img-fluid"></td>
+      <td><p class="cart-text">red top</p></td>
+      <td><p class="price">350</p></td>
+      <td><div class="qty"><input type="number" min="0" max="10" value="1"></div></td>
+      <td><p class="price">300</p>
+        <td><a href="#"><i class="fa fa-times remove" aria-hidden="true"></i></a></td>
+    
+    </tr>
+  </tbody>
+</table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#"><button type="button" class="btn btn-md btn-info">Update cart</button></a>
+                        <a href="#"><button type="button" class="btn btn-md btn-info">Checkout</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+         <section class="footer">
+            <div class="container">
+                <div class="row space">
+                    <div class="col-md-4 ft-1">
+                        <h3>Address</h3>
+                        <ul>
+                            <li>123 street,london.</li>
+                            <li>New york city</li>
+                            <li>example@gmail.com</li>
+                            <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true">
+                            </i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </ul>
+                       </div>
+                    <div class="col-md-4 ft-2">
+                        <h3>Links</h3>
+                        <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Clothing</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </div>
+                    <div class="col-md-4 ft-3">
+                        <h3>My Account</h3>
+                        <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="login.html">Register</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </div>
+                </div>
+                  <hr class="bl">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>@2017 All Rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+               
+            <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+     </body>
+</html>
