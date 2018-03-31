@@ -52,7 +52,7 @@ body{
 	padding:7px 0;
 }
 .showcase{
-background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(255,0,0,0.3)),url(images/pexels-photo-291762.jpeg) no-repeat center fixed;
+background:linear-gradient(rgba(0,0,0,0.4),rgba(255,0,0,0.4)),url(images/pexels-photo-291762.jpeg) no-repeat center fixed;
     background-size: cover;
     min-height: 450px;
     position: relative;
@@ -63,6 +63,7 @@ background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(255,0,0,0.3)),url(imag
     left:10%;
     color:white;
     text-transform: uppercase;
+    font-weight: bolder;
     
 }
 button.srh{
@@ -84,6 +85,7 @@ button.srh{
 }
 .mn{
     color:maroon;
+    font-size:80px;
 }
 .frame{
     padding:30px 0;
@@ -120,12 +122,15 @@ h1{
     color:black;
     
 }
-.bl{
-    color:white;
-    font-size:20px;
-    font-weight: 300;
+.gray{
+    background: gray;
 }
-
+.footext{
+    text-align: center;
+    padding:20px 0 0 20px;
+    font-size:16px;
+    color:white;
+}
 .offer{
     background: url(images/pexels-photo-371102.jpeg)no-repeat center center;
     background-size: cover;
@@ -187,6 +192,8 @@ h1{
     list-style-type: none;
     font-size:16px;
     line-height:30px;
+    text-align: left;
+    
 
         
 }
@@ -198,12 +205,28 @@ h1{
 .footer ul li a:hover{
     color: blueviolet;
 }
-.footer h3{
+.ad{
     font-size:25px;
     color:black;
     text-align: left;
     margin-bottom:10px;
-    padding-left:23px;
+    margin-left:60px;
+    font-weight: bolder;
+}
+.lin{
+    font-size:25px;
+    color:black;
+    text-align: left;
+    margin-bottom:10px;
+    margin-left:50px;
+    font-weight: bolder;
+}
+.ma{
+    font-size:25px;
+    color:black;
+    text-align: left;
+    margin-bottom:10px;
+    margin-left:50px;
     font-weight: bolder;
 }
 .ft-1 .fa{
@@ -213,7 +236,7 @@ h1{
     text-align: center;
     line-height: 30px;
     border:1px solid black;
-    margin:6px;
+    margin-left:6px;
     color:black;
     transition: 0.5s all;
     
