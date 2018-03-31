@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-       <title>shopping mantra</title>
+        <title>demo page</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- bootstrap css -->
@@ -10,7 +10,6 @@
         <link href="style.css" rel="stylesheet">
         <!--fonts-->
         <script src="https://use.fontawesome.com/d0157a1f4c.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     </head>
     <body>
        <header class="navigation">
@@ -45,12 +44,11 @@
 										 	
               </div>
               <div class="col-md-4">
-                  <img src="images/pexels-photo-247287.jpeg" class="img-fluid">
-                   </div>
-              <div class="col-md-4">
-                  <img src="images/pexels-photo-415265.jpeg" class="img-fluid">
-                   </div>
-         
+                 <img src="images/pexels-photo-291762.jpeg" class="img-fluid">
+              </div>
+          <div class="col-md-4">
+                   
+              </div>
            </div>
         </div>
         </li>
@@ -66,7 +64,7 @@
                </div>
                <div class="col-md-4 search-info">
                    <form>
-				<input type="search" placeholder="Search for a Product..." required>
+				<input type="search" id="term" placeholder="Search for a Product..." required>
                        <button type="submit" class="btn btn-light btn-sm srh">
                        <i class="fa fa-search" aria-hidden="true"></i>
                        </button>
@@ -78,68 +76,87 @@
            </div>
            </div>
         </header>
-        <section class="showcase-9">
-            <div class="about-head">
-                <p>Shopping cart</p>
+        <div class="showcase-10">
+            <div class="filter">
+                <p>Search results</p>
                 </div>
-            
-        </section>
-        <section class="shopcart">
+        </div>
+              <div class="container">
+                     <div class="row set-1">
+                         <div class="col-md-3" id="items">
+                        <img src="images/d2.jpeg" class="img-fluid pic">
+                             <a href="#"><button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button></a>
+                                </div>
+                         <div class="col-md-3">
+                        <img src="images/d4.jpeg" class="img-fluid pic">
+                             <a href="#"><button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button></a>
+                                </div>
+                         <div class="col-md-3">
+                        <img src="images/d5.jpeg" class="img-fluid pic">
+                             <a href="#"><button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button></a>
+                                </div>
+                         <div class="col-md-3">
+                        <img src="images/d5.jpeg" class="img-fluid pic">
+                             <a href="#"><button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button></a>
+                                </div>
+                         </div>
+                         <div class="row set-2">
+                         <div class="col-md-3">
+                        <img src="images/j1.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                                </div>
+                         <div class="col-md-3">
+                        <img src="images/j2.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                                </div>
+                         <div class="col-md-3">
+                        <img src="images/j3.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                                </div>
+                             <div class="col-md-3">
+                        <img src="images/j3.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                                </div>
+                         
+                            </div>
+                         <div class="row">
+                         <div class="col-md-3">
+                        <img src="images/j4.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                             </div>
+                         <div class="col-md-3">
+                        <img src="images/j5.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                                </div>
+                         <div class="col-md-3">
+                        <img src="images/d6.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                                </div>
+                              <div class="col-md-3">
+                        <img src="images/d6.jpeg" class="img-fluid pic">
+                                <button type="buton" class="btn btn-md btn-primary wo1">Add to cart</button>
+                                </div>
+                        
+                            </div>
+                    </div>
+                         
+        <section class="newsletter">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <table class="table">
-  <thead class="bg-success">
-    <tr>
-      <th scope="col">Item</th>
-      <th scope="col">Name</th>
-      <th scope="col">Price</th>
-      <th scope="col">Quantity</th>
-      <th scope="col">Total</th>
-      <th scope="col">Remove</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="images/min1.jpeg" class="img-fluid"></td>
-        <td><p class="cart-text">Peach dress</p></td>
-        <td><p class="price">300</p></td>
-        <td><div class="qty"><input type="number" min="0" max="10" value="1"></div></td>
-        <td><p class="price">300</p></td>
-        <td><a href="#"><i class="fa fa-times remove" aria-hidden="true"></i></a></td>
-    </tr>
-    <tr>
-      <td><img src="images/min-2.jpeg" class="img-fluid"></td>
-      <td><p class="cart-text">floral dress</p></td>
-      <td><p class="price">400</p></td>
-      <td><div class="qty"><input type="number" min="0" max="10" value="1"></div></td>
-      <td><p class="price">300</p>
-      <td><a href="#"><i class="fa fa-times remove" aria-hidden="true"></i></a></td>
-    
-    </tr>
-    <tr>
-     <td><img src="images/min-3.jpeg" class="img-fluid"></td>
-      <td><p class="cart-text">red top</p></td>
-      <td><p class="price">350</p></td>
-      <td><div class="qty"><input type="number" min="0" max="10" value="1"></div></td>
-      <td><p class="price">300</p>
-        <td><a href="#"><i class="fa fa-times remove" aria-hidden="true"></i></a></td>
-    
-    </tr>
-  </tbody>
-</table>
+                <div class="row space">
+                    <div class="col-md-5 news-left">
+                        <h2>Subscribe to our Newsletter</h2>
+                        
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <a href="mycart.html"><button type="button" class="btn btn-md btn-info">Update cart</button></a>
-                        <a href="checkout.html"><button type="button" class="btn btn-md btn-info">Checkout</button></a>
+                    <div class="col-md-7 news-right">
+                        <form action="#">
+                            <input type="email" value="Email" required>
+                            <input type="submit" value="submit">
+                        </form>
                     </div>
-                    
                 </div>
             </div>
         </section>
-         <section class="footer">
+        <section class="footer">
             <div class="container">
                 <div class="row space">
                     <div class="col-md-4 ft-1">
@@ -159,9 +176,9 @@
                         <h3>Links</h3>
                         <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="women.html">Clothing</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html">Clothing</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="index.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 ft-3">
@@ -169,7 +186,7 @@
                         <ul>
                         <li><a href="login.html">Login</a></li>
                         <li><a href="login.html">Register</a></li>
-                        <li><a href="mycart.html">Cart</a></li>
+                        <li><a href="#">Cart</a></li>
                         </ul>
                     </div>
                 </div>
@@ -187,5 +204,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="search.js"></script>
      </body>
 </html>

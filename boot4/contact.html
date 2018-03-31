@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>demo page</title>
+        <title>shopping mantra</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- bootstrap css -->
@@ -10,6 +10,7 @@
         <link href="style.css" rel="stylesheet">
         <!--fonts-->
         <script src="https://use.fontawesome.com/d0157a1f4c.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     </head>
     <body>
        <header class="navigation">
@@ -44,10 +45,10 @@
 										 	
               </div>
               <div class="col-md-4">
-                  <img src="images/pexels-photo-291762.jpeg" class="img-fluid">
+                  <img src="images/pexels-photo-247287.jpeg" class="img-fluid">
                    </div>
               <div class="col-md-4">
-                  
+                  <img src="images/pexels-photo-415265.jpeg" class="img-fluid">
                    </div>
          
            </div>
@@ -124,31 +125,31 @@
                     <div class="col-md-9">
                         <div class="container">
                             <p class="heading2">Send Message</p>
-                             <form class="align">
+                             <form class="align" name="myform">
                                 <div class="form-row">
                                     <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your firstname"..>
+                                    <input type="text" class="form-control" placeholder="Your firstname".. name="myname">
                                     </div>
                                     <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your lastname"..>
+                                    <input type="text" class="form-control" placeholder="Your lastname".. name="mylastname">
                                     </div>
                                 </div>
                                  <div class="form-row row2">
                                     <div class="col-md-6">
-                                    <input type="email" class="form-control" placeholder="Your email"..>
+                                    <input type="email" class="form-control" placeholder="Your email".. name="myemail">
                                     </div>
                                     <div class="col-md-6">
-                                    <input type="password" class="form-control" placeholder="Your password"..>
+                                    <input type="password" class="form-control" placeholder="Your password".. name="mypwd">
                                     </div>
                                 </div>
                                   <div class="row">
                                     <div class="col-md-12">
-        <textarea class="form-control" rows="5" placeholder="Your message"></textarea>
+  <textarea class="form-control" rows="5" placeholder="Your message" name="mymsg"></textarea>
                                       </div>
                                 </div>
                                  <div class="row row3">
                                      <div class="col-md-12">
-                                         <button type="button" class="btn btn-block btn-success green">Submit</button>
+                     <button type="button" class="btn btn-block btn-success green"  onclick="validate()">Submit</button>
                                      </div>
                                 </div>
                              </form>
@@ -166,9 +167,9 @@
                         
                     </div>
                     <div class="col-md-7 news-right">
-                        <form action="#">
-                            <input type="email" value="Email" required>
-                            <input type="submit" value="submit">
+                        <form name="news">
+                            <input type="email" placeholder="enter email" name="newsmail" required>
+                            <input type="submit" value="submit" onclick="validateLetter()">
                         </form>
                     </div>
                 </div>
@@ -194,16 +195,18 @@
                         <h3>Links</h3>
                         <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">Clothing</a></li>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="index.html">Contact</a></li>
+                        <li><a href="shoes.html">Clothing</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        </ul>
                     </div>
                     <div class="col-md-4 ft-3">
                         <h3>My Account</h3>
                         <ul>
                         <li><a href="login.html">Login</a></li>
                         <li><a href="login.html">Register</a></li>
-                        <li><a href="#">Cart</a></li>
+                        <li><a href="mycart.html">Cart</a></li>
+                        </ul>
                     </div>
                 </div>
                   <hr class="bl">
@@ -220,5 +223,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="search.js"></script>
      </body>
 </html>
